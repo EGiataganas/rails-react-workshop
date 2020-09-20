@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import PersonsList from "./components/PersonsList"
+ class App extends Component {
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
-      <div>Hello there</div>
+      <PersonsList></PersonsList>
+      
     );
   }
 }
+export default App;
